@@ -1,0 +1,278 @@
+{
+  "languages": {
+    "de": "DE",
+    "en": "EN"
+  },
+  "nav": {
+    "handle": "manish",
+    "hireMe": "hire_me()"
+  },
+  "hero": {
+    "availability": "Offen für SDE / Junior-Softwareentwickler-Stellen",
+    "promptUser": "manish@dev",
+    "promptPath": ":~$",
+    "promptCommand": "whoami",
+    "name": "Manish Parajuli",
+    "role": "Software Engineer",
+    "description": "Ich entwickle Backend-Systeme, APIs und datenbankgestützte Anwendungen. Meine stärkste Erfahrung liegt in PHP und Laravel. Aktuell studiere ich einen MSc in Software Engineering in Großbritannien, um mein Wissen im Systemdesign zu vertiefen.",
+    "viewProjectsButton": "Projekte ansehen",
+    "resumeButton": "Lebenslauf",
+    "githubUrl": "[GITHUB-URL HINZUFÜGEN]",
+    "githubLabel": "GitHub",
+    "linkedinUrl": "[LINKEDIN-URL HINZUFÜGEN]",
+    "linkedinLabel": "LinkedIn",
+    "contactLabel": "Kontakt",
+    "apiRoute": "GET /api/manish",
+    "location": "London, UK",
+    "currently": "MSc Software Engineering",
+    "stack": [
+      "PHP",
+      "Laravel",
+      "Python",
+      "MySQL",
+      "REST APIs"
+    ],
+    "openTo": "SDE-1 / Backend / Junior-Stellen",
+    "statusCode": "200 OK",
+    "latency": "12ms"
+  },
+  "about": {
+    "eyebrow": "Über mich",
+    "heading": "Über mich",
+    "paragraphs": [
+      "Ich bin Softwareentwickler mit beruflicher Erfahrung im Aufbau und der Wartung von Backend-Systemen, APIs, Datenbanken und Geschäftsanwendungen. Meine stärkste Erfahrung liegt in PHP und Laravel - Backend-Logik, APIs, Datenbanken, Debugging und die Umsetzung fachlicher Anforderungen.",
+      "Außerdem habe ich Erfahrung mit Python und Interesse an datenbezogenen und KI/ML-Anwendungen. Mir geht es darum, mit Software echte geschäftliche Probleme zu lösen.",
+      "Derzeit studiere ich einen MSc in Software Engineering im Vereinigten Königreich, um mein Wissen im Systemdesign und im Aufbau größerer, zuverlässiger Software-Systeme zu vertiefen. Mein langfristiges Ziel ist es, reale Softwareprodukte zu entwickeln und eigene Produkte aufzubauen."
+    ],
+    "journeyLabel": "Mein Werdegang",
+    "journey": [
+      "Aufgewachsen und studiert in Nepal",
+      "Bachelor of Information Technology, Lincoln University at Nepal",
+      "Backend-Erfahrung - PHP, Laravel, MySQL, APIs",
+      "Wachsendes Interesse an Daten & KI",
+      "Umzug nach Großbritannien",
+      "MSc Software Engineering (laufend)",
+      "Vertiefung von Software-Engineering- und Systemdesign-Kenntnissen"
+    ]
+  },
+  "experience": {
+    "eyebrow": "Berufserfahrung",
+    "heading": "Berufserfahrung",
+    "note": "Die genauen Angaben unten sind Platzhalter - Firmenname, Position und Zeitraum werden ergänzt, sobald bestätigt.",
+    "items": [
+      {
+        "icon": "work",
+        "date": "[DATUM HINZUFÜGEN]",
+        "title": "[JOBTITEL HINZUFÜGEN]",
+        "subTitle": "[FIRMENNAME HINZUFÜGEN]",
+        "description": "Backend-Logik, REST-APIs, Datenbanken und fachliche Anforderungen mit PHP und Laravel umgesetzt. Schwerpunkt auf Debugging und Verbesserung bestehender Systeme wie Inventar-, Transaktions- und datengetriebene Anwendungen."
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Projekte",
+    "heading": "Woran ich arbeite",
+    "subheading": "Echte Backend- und Software-Engineering-Projekte, keine Tutorial-Klone. Der Status ist ehrlich gekennzeichnet.",
+    "comingSoon": "Quellcode folgt in Kürze",
+    "items": [
+      {
+        "name": "Transportation Operations & Data Management Platform",
+        "status": "Projektkonzept",
+        "description": "Konzept für ein System, mit dem Transportunternehmen Fahrzeuge, Fahrer, Fahrten, Waren, Standorte und Kosten erfassen und daraus Berichte und Dashboards erstellen können.",
+        "technologies": [
+          "PHP",
+          "Laravel",
+          "MySQL",
+          "REST APIs"
+        ]
+      },
+      {
+        "name": "Inventar-/Bestandsverwaltungssystem",
+        "status": "Basierend auf Berufserfahrung",
+        "description": "Backend-Arbeit an Systemen für Produkte, Lagerbewegungen, Kunden und Transaktionsdatensätze.",
+        "technologies": [
+          "PHP",
+          "Laravel",
+          "MySQL"
+        ]
+      },
+      {
+        "name": "Business-Management-System",
+        "status": "Basierend auf Berufserfahrung",
+        "description": "Anwendungen mit Geschäftslogik, relationalen Datenbanken und operativen Arbeitsabläufen auf Basis von Laravel und REST-APIs.",
+        "technologies": [
+          "PHP",
+          "Laravel",
+          "MySQL",
+          "REST APIs"
+        ]
+      },
+      {
+        "name": "E-Learning-System",
+        "status": "Basierend auf Berufserfahrung",
+        "description": "Arbeit an einem datenbankgestützten System mit Nutzern, Kursen/Inhalten und zugehöriger Funktionalität.",
+        "technologies": [
+          "PHP",
+          "Laravel",
+          "MySQL"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Fähigkeiten",
+    "heading": "Technologien, mit denen ich arbeite",
+    "categories": [
+      {
+        "name": "Backend",
+        "skills": [
+          "PHP",
+          "Laravel",
+          "Python",
+          "REST APIs"
+        ]
+      },
+      {
+        "name": "Datenbank",
+        "skills": [
+          "MySQL",
+          "SQL",
+          "Datenbankdesign"
+        ]
+      },
+      {
+        "name": "Software Engineering",
+        "skills": [
+          "Systemdesign",
+          "Backend-Architektur",
+          "API-Design",
+          "Debugging",
+          "Testing",
+          "Datenbankgestützte Anwendungen"
+        ]
+      },
+      {
+        "name": "Tools",
+        "skills": [
+          "Git",
+          "GitHub",
+          "Docker"
+        ]
+      },
+      {
+        "name": "Aktuell in Entwicklung",
+        "skills": [
+          "TypeScript",
+          "Next.js",
+          "Cloud / Deployment",
+          "KI / Machine Learning",
+          "Data Engineering & Analyse"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "eyebrow": "Ausbildung",
+    "heading": "Ausbildung",
+    "items": [
+      {
+        "icon": "school",
+        "date": "[DATUM HINZUFÜGEN]",
+        "title": "MSc Software Engineering",
+        "subTitle": "[UNIVERSITÄT HINZUFÜGEN], Vereinigtes Königreich - derzeit im Studium",
+        "description": "Vertiefung von Software-Engineering-Kenntnissen, Systemdesign und dem Aufbau größerer, zuverlässiger Software-Systeme."
+      },
+      {
+        "icon": "school",
+        "date": "Nepal",
+        "title": "Bachelor of Information Technology (BIT)",
+        "subTitle": "Lincoln University at Nepal - GPA 3.32",
+        "description": "Grundlagenstudium in Softwareentwicklung, Datenbanken und Informationstechnologie."
+      }
+    ]
+  },
+  "blogSection": {
+    "eyebrow": "Engineering Notes",
+    "heading": "Engineering Notes",
+    "subheading": "Notizen zu meiner Entwicklung als Engineer - Laravel, API-Design, Debugging und mein MSc-Studium. Mehr folgt.",
+    "emptyState": "Noch keine Beiträge veröffentlicht - schau bald wieder vorbei."
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Lass uns reden",
+    "description": "Offen für SDE-1-, Junior- und Backend-Entwicklungsmöglichkeiten in Großbritannien.",
+    "location": "London, Vereinigtes Königreich",
+    "email": "[BERUFLICHE E-MAIL HINZUFÜGEN]",
+    "linkedin": "LinkedIn",
+    "linkedinUrl": "[LINKEDIN-URL HINZUFÜGEN]",
+    "github": "GitHub",
+    "githubUrl": "[GITHUB-URL HINZUFÜGEN]",
+    "button": "Nachricht senden",
+    "form": {
+      "labels": {
+        "name": "Name",
+        "email": "E-Mail",
+        "subject": "Betreff",
+        "message": "Nachricht"
+      },
+      "errors": {
+        "required": "Dieses Feld ist erforderlich!",
+        "invalidEmail": "Ungültige E-Mail-Adresse!",
+        "sendError": "Die Nachricht wurde NICHT gesendet. Bitte versuche es später erneut!"
+      },
+      "success": {
+        "message": "Nachricht erfolgreich gesendet! Ich melde mich bald bei dir."
+      },
+      "sendButton": "Nachricht senden",
+      "sending": "Senden..."
+    }
+  },
+  "copyright": "Manish Parajuli - Alle Rechte vorbehalten.",
+  "downloadCvFileName": "Manish Parajuli Lebenslauf",
+  "cardPlaceholder": "Kartenplatzhalter",
+  "buttons": {
+    "myPortfolio": "Mein Portfolio",
+    "sendMessage": "Nachricht senden",
+    "downloadCV": "Lebenslauf herunterladen",
+    "clickMe": "Klick mich",
+    "back": "Zurück",
+    "accept": "Akzeptieren",
+    "cancel": "Abbrechen",
+    "loading": "Wird geladen...",
+    "sending": "Senden...",
+    "home": "Startseite",
+    "notFound": "Nicht gefunden"
+  },
+  "seo": {
+    "home": {
+      "title": "Manish Parajuli - Software Engineer",
+      "description": "Softwareentwickler mit Schwerpunkt Backend-Entwicklung (PHP, Laravel, MySQL), derzeit im MSc Software Engineering in Großbritannien.",
+      "author": "Manish Parajuli"
+    },
+    "notFound": {
+      "title": "404 | Seite nicht gefunden"
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung"
+    }
+  },
+  "notFoundPage": {
+    "text1": "Hoppla!",
+    "text2": "Seite nicht gefunden!"
+  },
+  "blogPage": {
+    "minutes": "Minuten",
+    "published": "Veröffentlicht"
+  },
+  "ariaLabels": {
+    "backToHome": "Zurück zur Startseite",
+    "changeTheme": "Design ändern",
+    "changeLanguage": "Sprache ändern",
+    "smwebLogo": "Logo",
+    "backToTop": "Nach oben",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus",
+    "openMenu": "Menü öffnen"
+  },
+  "privacy": "Datenschutz"
+}
