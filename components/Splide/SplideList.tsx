@@ -16,7 +16,7 @@ export default function SplideList() {
   const { t } = useTranslation()
   // Generate iterable array from the slider object (i18n translation file)
   const slides = t("slides", {
-    returnObjects: true,
+    returnObjects: true
   }) as Slide[]
 
   return (

@@ -109,6 +109,8 @@ export function getAllPostsMeta(): PostMeta[] {
 }
 
 /** A single post (with its raw MDX body) by its route param. Server-only. */
-export function getPostBySlug(slugAsParams: string): PostWithContent | undefined {
+export function getPostBySlug(
+  slugAsParams: string
+): PostWithContent | undefined {
   return getAllPosts().find((post) => post.slugAsParams === slugAsParams)
 }

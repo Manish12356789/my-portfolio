@@ -32,7 +32,7 @@ export default function Button({
         type={type}
         onClick={handler}
         data-test={testId}
-        className={`group group relative flex h-[50px] min-w-[240px] items-center overflow-hidden rounded-full border-2 border-primary text-center text-white drop-shadow-lg transition-all ease-out hover:!bg-primary ${customClass}`}
+        className={`group relative flex h-[50px] min-w-[240px] items-center overflow-hidden rounded-full border-2 border-primary text-center text-white drop-shadow-lg transition-all ease-out hover:!bg-primary ${customClass}`}
       >
         <span className='text-md text-cener font-oswald relative w-full font-bold uppercase text-black group-hover:text-cLight dark:text-cLight'>
           {text}

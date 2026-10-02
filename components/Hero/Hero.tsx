@@ -190,9 +190,7 @@ export default function Hero({ onDownloadCV }: Params) {
                 )}
                 <p className='pl-4 text-cLightGrey'>],</p>
                 <p className='pl-4'>
-                  <span className='text-primaryLight'>
-                    &quot;open_to&quot;
-                  </span>
+                  <span className='text-primaryLight'>&quot;open_to&quot;</span>
                   <span className='text-cLightGrey'>: </span>
                   <span className='text-cOffWhite'>
                     &quot;{t("hero.openTo")}&quot;

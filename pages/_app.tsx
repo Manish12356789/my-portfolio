@@ -4,7 +4,7 @@ import { useDarkMode } from "@/hooks/detect-theme"
 import useLocalStorage from "@/hooks/local-storage"
 import "@/styles/globals.css"
 import { AnimatePresence, motion, Spring } from "framer-motion"
-import { appWithTranslation, i18n } from "next-i18next"
+import { appWithTranslation } from "next-i18next"
 import type { AppProps } from "next/app"
 import { useRouter } from "next/router"
 import { GoogleAnalytics } from "nextjs-google-analytics"
@@ -24,11 +24,11 @@ function MyApp({ Component, pageProps }: AppProps) {
   }
   const transitionColor = "var(--primary-color)"
   const [loading, setLoading] = useState(false)
-  const [locale, setLocale] = useLocalStorage("lang", i18n!.language)
+  const [locale, setLocale] = useLocalStorage("lang", router.locale ?? "en")
 
   // Set language when app starts
   useEffect(() => {
-    setLocale(i18n!.language)
+    setLocale(router.locale ?? "en")
   }, [])
 
   // Activate animations when route changes

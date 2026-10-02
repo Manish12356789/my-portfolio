@@ -112,7 +112,7 @@ export const getStaticProps: GetStaticProps = async ({
       description:
         post.description && post.description.length >= 120
           ? post.description.slice(0, 120) + " ..."
-          : post.description ?? "",
+          : (post.description ?? ""),
       thumbnail: post.thumbnail ?? "",
       slug: post.slug,
       hasButton: false,

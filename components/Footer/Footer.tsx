@@ -7,7 +7,10 @@ export default function Footer() {
   return (
     <footer className='flex min-h-[100px] w-full items-center justify-center border-primary p-4 shadow-[0px_-1px_9px_0px_rgba(0,0,0,0.2)] dark:border-t-2 dark:shadow-[0px_-1px_9px_0px_rgba(0,0,0,0.8)]'>
       <div className='w-100 container flex flex-col items-center space-y-2'>
-        <Link href='/' className='font-mono text-lg font-bold text-cDark dark:text-cLight'>
+        <Link
+          href='/'
+          className='font-mono text-lg font-bold text-cDark dark:text-cLight'
+        >
           ~/<span className='text-primary'>{t("nav.handle")}</span>
         </Link>
 

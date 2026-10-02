@@ -17,7 +17,7 @@ export default function LanguageSwitcher() {
   const [selected, setSelected] = useState(languages[0])
   const [storageLocale, setStorageLocale] = useLocalStorage(
     "lang",
-    i18n!.language
+    i18n?.language ?? "en"
   )
 
   useEffect(() => {

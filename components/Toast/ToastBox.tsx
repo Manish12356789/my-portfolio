@@ -1,5 +1,5 @@
-import PropTypes from "prop-types"
-import { toast, TypeOptions } from "react-toastify"
+import { toast } from "react-toastify"
+import type { TypeOptions } from "react-toastify"
 
 const ToastMessage = ({ type, message }: { type: string; message: string }) =>
   toast(
@@ -14,11 +14,6 @@ const ToastMessage = ({ type, message }: { type: string; message: string }) =>
       type: type as TypeOptions
     }
   )
-
-ToastMessage.propTypes = {
-  message: PropTypes.string.isRequired,
-  type: PropTypes.string.isRequired
-}
 
 ToastMessage.dismiss = toast.dismiss
 

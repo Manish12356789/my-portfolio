@@ -21,7 +21,9 @@
     "prettier/prettier": "error",
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
-    "no-unused-vars": "off"
+    "no-unused-vars": "off",
+    "import/named": "off",
+    "react/jsx-no-comment-textnodes": "off"
   },
   "globals": {
     "cy": true

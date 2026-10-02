@@ -36,7 +36,7 @@ export function Contact() {
                 </p>
               </div>
 
-              <div className='flex items-center gap-2 '>
+              <div className='flex items-center gap-2'>
                 <span className='material-symbols-outlined cursor-default text-2xl text-primary'>
                   email
                 </span>
@@ -48,7 +48,7 @@ export function Contact() {
                 </a>
               </div>
 
-              <div className='flex items-center gap-2 '>
+              <div className='flex items-center gap-2'>
                 <span className='material-symbols-outlined cursor-default text-2xl text-primary'>
                   work
                 </span>
@@ -62,7 +62,7 @@ export function Contact() {
                 </a>
               </div>
 
-              <div className='flex items-center gap-2 '>
+              <div className='flex items-center gap-2'>
                 <span className='material-symbols-outlined cursor-default text-2xl text-primary'>
                   code
                 </span>

@@ -29,7 +29,7 @@ export default function SkillsSection() {
     >
       <div className='container'>
         <div className='mb-10 flex items-center gap-3 font-mono text-sm text-primary'>
-          <span>//</span>
+          <span>{"//"}</span>
           <span>{t("skills.eyebrow")}</span>
         </div>
         <h2 className='mb-14 text-3xl font-black text-cDark dark:text-cLight md:text-4xl'>
