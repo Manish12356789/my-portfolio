@@ -18,11 +18,11 @@ function RootLayout({ children }: Props): JSX.Element {
         <main>
           {children}
           <ToTopButton />
+          <GoogleTag />
         </main>
         <Footer />
         <VercelAnalytics />
       </ThemeProvider>
-      <GoogleTag />
     </div>
   )
 }
