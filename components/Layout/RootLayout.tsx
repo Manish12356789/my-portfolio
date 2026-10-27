@@ -1,6 +1,7 @@
 import ToTopButton from "@/components/Button/ToTopButton"
 import Footer from "@/components/Footer/Footer"
 import Navbar from "@/components/Navbar/Navbar"
+import GoogleTag from "@/components/Extra/GoogleTag"
 import { ThemeProvider } from "@/components/ThemeProvider"
 import { Analytics as VercelAnalytics } from "@/components/VercelAnalytics"
 import { ReactNode } from "react"
@@ -21,6 +22,7 @@ function RootLayout({ children }: Props): JSX.Element {
         <Footer />
         <VercelAnalytics />
       </ThemeProvider>
+      <GoogleTag />
     </div>
   )
 }
